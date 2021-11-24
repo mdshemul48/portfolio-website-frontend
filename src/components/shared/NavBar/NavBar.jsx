@@ -13,19 +13,19 @@ const NavBar = () => {
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav className='mx-auto  my-lg-0'>
-            <div className='nav-links d-flex my-auto mx-2 '>
-              <NavLink as={Link} to='/'>
+            <div className='nav-links d-flex my-auto mx-2'>
+              <NavLink className={'me-4 px-3'} as={Link} to='/'>
                 Home
               </NavLink>
-              <NavLink as={Link} to='/projects'>
+              <NavLink className={'me-4 px-3'} as={Link} to='/projects'>
                 Projects
               </NavLink>
-              <NavLink as={Link} to='/blogs'>
+              <NavLink className={'px-3 '} as={Link} to='/blogs'>
                 Blogs
               </NavLink>
             </div>
           </Nav>
-          <Nav.Link as={Link} className='nav-link' to='#'>
+          <Nav.Link as={Link} to='#'>
             MD. Shimul
           </Nav.Link>
         </Navbar.Collapse>

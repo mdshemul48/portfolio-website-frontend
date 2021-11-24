@@ -1,7 +1,8 @@
 .nav-links {
   border-radius: 10px;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
 }
 
 nav .nav-links {

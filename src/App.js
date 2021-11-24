@@ -10,7 +10,6 @@ import NavBar from './components/shared/NavBar/NavBar';
 
 // styles
 import './App.css';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
