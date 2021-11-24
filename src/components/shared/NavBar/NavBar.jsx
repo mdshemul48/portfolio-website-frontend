@@ -20,8 +20,11 @@ const NavBar = () => {
               <NavLink className={'me-4 px-3'} as={Link} to='/projects'>
                 Projects
               </NavLink>
-              <NavLink className={'px-3 '} as={Link} to='/blogs'>
+              <NavLink className={'me-4 px-3'} as={Link} to='/blogs'>
                 Blogs
+              </NavLink>
+              <NavLink className={'px-3'} as={Link} to='/about-us'>
+                About Me
               </NavLink>
             </div>
           </Nav>
