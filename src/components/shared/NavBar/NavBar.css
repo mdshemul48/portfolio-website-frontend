@@ -1,0 +1,10 @@
+.nav-links {
+  border-radius: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+nav .nav-links {
+  background-color: #efefef;
+  color: #3f3f3f;
+}
