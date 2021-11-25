@@ -1,7 +1,13 @@
 import React from 'react';
 
+import HeroArea from './HeroArea/HeroArea';
+
 const Home = () => {
-  return <div>This is home page.</div>;
+  return (
+    <main>
+      <HeroArea />
+    </main>
+  );
 };
 
 export default Home;
