@@ -12,8 +12,14 @@
   font-weight: 700;
   font-size: 3.2rem;
 }
-
-.resume-download-btn {
-  background-color: #ff284f !important;
+.project-btn{
   border: none !important;
+}
+.project-btn:hover{
+  background-color: #ef284f !important;
+
+}
+.resume-download-btn:hover, .project-btn {
+  background-color: #ff284f !important;
+  /* border: none !important; */
 }
