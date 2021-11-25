@@ -5,21 +5,21 @@
   font-family: 'Poppins', sans-serif;
 }
 .hero-textArea {
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 .hero-textArea h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 3.2rem;
 }
-.project-btn{
+.project-btn {
   border: none !important;
 }
-.project-btn:hover{
+.project-btn:hover {
   background-color: #ef284f !important;
-
 }
-.resume-download-btn:hover, .project-btn {
+.resume-download-btn:hover,
+.project-btn {
   background-color: #ff284f !important;
   /* border: none !important; */
 }

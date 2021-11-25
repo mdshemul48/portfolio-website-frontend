@@ -13,6 +13,7 @@ const HeroArea = () => {
           <div className='hero-textArea'>
             <h1>Hay There,</h1>
             <h1>I'm MD. Shimul</h1>
+            <h5 className='my-3 fw-bolder'>Full Stack Developer</h5>
             <p>
               Highly motivated professional software engineer, familiar with a
               variety of programming languages, including JavaScript, Python.
