@@ -6,10 +6,10 @@ import HeroPicture from '../../../assets/031.png';
 import './HeroArea.css';
 const HeroArea = () => {
   return (
-    <Container className='mt-2'>
+    <Container className='mt-2 hero-area'>
       <Row>
         <Col lg={6}>
-          <div className='text'>
+          <div className='hero-textArea'>
             <h1>Hi! I Am</h1>
             <h1>MD. Abdul Sattar Shimul</h1>
             <p>
