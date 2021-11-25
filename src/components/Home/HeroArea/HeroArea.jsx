@@ -7,7 +7,7 @@ import HeroPicture from '../../../assets/HeroAreaPicture.png';
 import './HeroArea.css';
 const HeroArea = () => {
   return (
-    <Container className='mt-2 hero-area pt-4 px-5 pb-1'>
+    <Container className='mt-4 hero-area pt-4 px-5 pb-1'>
       <Row>
         <Col lg={6}>
           <div className='hero-textArea'>
