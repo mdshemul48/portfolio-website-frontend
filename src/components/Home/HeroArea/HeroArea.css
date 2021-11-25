@@ -1,3 +1,4 @@
 .resume-download-btn {
-  background-color: #ff284f;
+  background-color: #ff284f !important;
+  border: none !important;
 }
