@@ -1,5 +1,8 @@
 import React from 'react';
 import { Container, Nav, Navbar, Button } from 'react-bootstrap';
+import { CgHomeAlt } from 'react-icons/cg';
+import { BiRocket } from 'react-icons/bi';
+import { HiOutlineDocumentText } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
 
 import NavLink from './NavLink/NavLink';
@@ -15,13 +18,13 @@ const NavBar = () => {
           <Nav className='mx-auto  my-lg-0'>
             <div className='nav-links d-flex my-auto mx-2'>
               <NavLink className={'me-4 px-3'} as={Link} to='/'>
-                Home
+                <CgHomeAlt /> Home
               </NavLink>
               <NavLink className={'me-4 px-3'} as={Link} to='/projects'>
-                Projects
+                <BiRocket /> Projects
               </NavLink>
               <NavLink className={'me-4 px-3'} as={Link} to='/blogs'>
-                Blogs
+                <HiOutlineDocumentText /> Blogs
               </NavLink>
               <NavLink className={'px-3'} as={Link} to='/about-us'>
                 About Me

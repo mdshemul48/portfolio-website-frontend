@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
-
+import { BiCloudDownload } from 'react-icons/bi';
 import HeroPicture from '../../../assets/HeroAreaPicture.png';
 
 import './HeroArea.css';
@@ -19,7 +19,7 @@ const HeroArea = () => {
               repellendus officiis numquam?
             </p>
             <Button variant='danger' className='resume-download-btn'>
-              Resume
+              <BiCloudDownload /> Resume
             </Button>
           </div>
         </Col>
