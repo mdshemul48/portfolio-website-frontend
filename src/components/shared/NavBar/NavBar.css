@@ -1,3 +1,9 @@
+.main-logo-area {
+  color: #0d2f3f !important;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.8rem !important;
+}
+
 .nav-links {
   border-radius: 10px;
   padding: 5px;

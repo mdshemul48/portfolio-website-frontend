@@ -12,7 +12,9 @@ const NavBar = () => {
   return (
     <Navbar expand='lg' className='shadow-sm'>
       <Container>
-        <Navbar.Brand href='#'>Navbar scroll</Navbar.Brand>
+        <Navbar.Brand href='/' className='main-logo-area'>
+          Shimul
+        </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav className='mx-auto  my-lg-0'>
