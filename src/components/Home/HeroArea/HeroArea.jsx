@@ -14,10 +14,8 @@ const HeroArea = () => {
             <h1>Hay There,</h1>
             <h1>I'm MD. Shimul</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              harum nisi rerum, aut aliquid quis at? Deleniti veritatis, qui
-              suscipit possimus libero, culpa, saepe mollitia debitis temporibus
-              repellendus officiis numquam?
+             Highly motivated professional software engineer, familiar with a variety of programming languages, including JavaScript, Python. I’m always adding new skills to my repertoire. Looking for an opportunity to demonstrate my programming skills.
+
             </p>
             <Button variant='danger' className='project-btn me-1'>
               <BiRocket />  Projects
