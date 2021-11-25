@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import NavLink from './NavLink/NavLink';
@@ -29,7 +29,9 @@ const NavBar = () => {
             </div>
           </Nav>
           <Nav.Link as={Link} to='#'>
-            MD. Shimul
+            <Button className='px-3 login-button' variant='outline-dark'>
+              Log In
+            </Button>
           </Nav.Link>
         </Navbar.Collapse>
       </Container>

@@ -9,3 +9,7 @@ nav .nav-links {
   background-color: #efefef;
   color: #3f3f3f;
 }
+
+.login-button:hover {
+  background-color: #3f3f3f !important;
+}
