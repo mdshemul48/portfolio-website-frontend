@@ -8,13 +8,16 @@ const Projects = () => {
   return (
     <section className='my-5'>
       <Container>
-        <div className='d-flex justify-content-between'>
-          <h2 className=' project-title fw-bold'>Projects</h2>
-          <Button variant='outline-dark' size='sm'>
-            View More
-          </Button>
+        <div className='text-center'>
+          <h1 className='project-title fw-bold'>Work</h1>
+          <p className='m-0 text-secondary fw-light'>
+            Check my commercial and non-commercial projects.
+          </p>
+          <p className='m-0 mb-4 text-secondary fw-light'>
+            {' '}
+            If you have any questions feel free to ask me for more information
+          </p>
         </div>
-        <hr />
         <Row className='g-5'>
           <Project />
           <Project />
