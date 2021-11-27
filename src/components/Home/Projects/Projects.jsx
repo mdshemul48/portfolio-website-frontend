@@ -18,7 +18,7 @@ const Projects = () => {
             If you have any questions feel free to ask me for more information
           </p>
         </div>
-        <Row className='g-5'>
+        <Row className='g-3'>
           <Project />
           <Project />
           <Project />

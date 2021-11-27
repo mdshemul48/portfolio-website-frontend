@@ -1,10 +1,10 @@
 .nav-link {
   padding: 0.4rem 1rem;
   border-radius: 5px;
-  color: #3f3f3f !important;
+  color: #0d2f3f !important;
 }
 
 .nav-link.active {
-  background-color: #ff284f;
+  background-color: #0d2f3f;
   color: #fff !important;
 }

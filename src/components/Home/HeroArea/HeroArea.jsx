@@ -37,10 +37,10 @@ const HeroArea = () => {
                 className='me-2'
               />
             </div>
-            <Button variant='danger' className='project-btn me-1'>
+            <Button variant='dark' className='project-btn me-1'>
               <BiRocket /> Projects
             </Button>
-            <Button variant='outline-danger' className='resume-download-btn'>
+            <Button variant='outline-dark' className='resume-download-btn'>
               <BiCloudDownload /> Resume
             </Button>
           </div>

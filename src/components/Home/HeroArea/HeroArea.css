@@ -16,10 +16,10 @@
   border: none !important;
 }
 .project-btn:hover {
-  background-color: #ef284f !important;
+  background-color: #0d2f3f !important;
 }
 .resume-download-btn:hover,
 .project-btn {
-  background-color: #ff284f !important;
+  background-color: #0d2f3f !important;
   /* border: none !important; */
 }
