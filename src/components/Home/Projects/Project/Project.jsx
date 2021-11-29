@@ -12,6 +12,7 @@ const Project = ({ project }) => {
     image,
     tags,
     previewLink,
+    githubLink,
     githubClint,
     githubServer,
   } = project;
@@ -37,29 +38,44 @@ const Project = ({ project }) => {
           </div>
           <p className='text-secondary '>{description.substr(0, 150)}...</p>
           <div>
-            <Button
-              variant='dark view-details-btn'
-              href={githubClint}
-              target='_blink'
-            >
-              <BsGithub /> Client Side
-            </Button>
-            <Button
-              variant='dark view-details-btn'
-              className='ms-2'
-              href={githubServer}
-              target='_blink'
-            >
-              <BsGithub /> Server Side
-            </Button>
-            <Button
-              variant=''
-              className='ms-2'
-              href={previewLink}
-              target='_blink'
-            >
-              <FiEye /> Preview
-            </Button>
+            {githubLink && (
+              <Button
+                variant='dark view-details-btn'
+                href={githubLink}
+                target='_blink'
+              >
+                <BsGithub /> Github
+              </Button>
+            )}
+            {githubClint && (
+              <Button
+                variant='dark view-details-btn'
+                href={githubClint}
+                target='_blink'
+              >
+                <BsGithub /> Client Side
+              </Button>
+            )}
+            {githubServer && (
+              <Button
+                variant='dark view-details-btn'
+                className='ms-2'
+                href={githubServer}
+                target='_blink'
+              >
+                <BsGithub /> Server Side
+              </Button>
+            )}
+            {previewLink && (
+              <Button
+                variant=''
+                className='ms-2'
+                href={previewLink}
+                target='_blink'
+              >
+                <FiEye /> Preview
+              </Button>
+            )}
           </div>
         </div>
       </div>

@@ -16,6 +16,7 @@ const projectDetails = [
     tags: [
       'React',
       'Node',
+      'Express',
       'MongoDB',
       'React-Router',
       'Firebase-Auth',
@@ -26,6 +27,42 @@ const projectDetails = [
     previewLink: 'https://chaka101.web.app/',
     githubClint: 'https://github.com/mdshemul48/Chaka-car-shop-frontend',
     githubServer: 'https://github.com/mdshemul48/Chaka-car-shop-backend',
+  },
+  {
+    title: 'Hotel California - Hotel booking Site',
+    description:
+      'Customer reservations are added to the database and loaded separately for every user. Authorized clients can book and cancel reservations. Admin can add a new or delete an existing room.',
+    image: ChakaPhoto,
+    tags: [
+      'Node',
+      'React',
+      'Express',
+      'MongoDB',
+      'React-Router',
+      'Firebase-Auth',
+      'React-bootstrap',
+      'heroku',
+    ],
+    previewLink: 'https://hotel-california101.web.app/',
+    githubClint: 'https://github.com/mdshemul48/Hotel-California-Frontend',
+    githubServer: 'https://github.com/mdshemul48/Hotel-California-backend',
+  },
+  {
+    title: 'MallOn - Medical & Healthcare',
+    description:
+      'MallOn is a professional dynamic single-page web application where users can view details of Healthcare products. Integrated with the private route where a user needs to login for view protected route. Authorized users can view product details information after login.',
+    image: ChakaPhoto,
+    tags: [
+      'React',
+      'React-Router',
+      'Firebase-Auth',
+      'React-bootstrap',
+      'react-icons',
+      'react-leaflet',
+      'axios',
+    ],
+    previewLink: 'https://mallmed-101.web.app/',
+    githubLink: 'https://github.com/mdshemul48/MallOn-Medical-Healthcare',
   },
 ];
 
@@ -40,16 +77,13 @@ const Projects = () => {
           </p>
           <p className='m-0 mb-4 text-secondary fw-light'>
             {' '}
-            If you have any questions feel free to ask me for more information
+            If you have any questions feel free to ask me for more information.
           </p>
         </div>
         <Row className='g-3'>
           {projectDetails.map((project) => (
             <Project project={project} key={project.title} />
           ))}
-          {/* <Project />
-          <Project />
-          <Project /> */}
         </Row>
       </Container>
     </section>
