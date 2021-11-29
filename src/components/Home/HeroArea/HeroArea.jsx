@@ -2,7 +2,6 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import { BiCloudDownload, BiRocket } from 'react-icons/bi';
-import { Link } from 'react-router-dom';
 
 import HeroPicture from '../../../assets/HeroAreaPicture.png';
 
