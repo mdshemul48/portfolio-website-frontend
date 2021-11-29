@@ -59,9 +59,15 @@ const HeroArea = () => {
               <Button variant='dark' className='project-btn me-1'>
                 <BiRocket /> Projects
               </Button>
-              <Button variant='outline-dark' className='resume-download-btn'>
-                <BiCloudDownload /> Resume
-              </Button>
+              <a
+                href='https://drive.google.com/file/d/114sU095HqaUcYaRnkwvy9TW00MZvTQTc/view?usp=sharing'
+                target='_blank'
+                alt='resume link'
+              >
+                <Button variant='outline-dark' className='resume-download-btn'>
+                  <BiCloudDownload /> Resume
+                </Button>
+              </a>
             </div>
           </Col>
           <Col lg={6}>
