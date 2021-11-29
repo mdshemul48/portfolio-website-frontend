@@ -1,42 +1,63 @@
 import React from 'react';
 import { Badge, Button, Col } from 'react-bootstrap';
 import { FiEye } from 'react-icons/fi';
-import { BsTextRight } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
 
 import tempPicture from '../../../../assets/temp.jpg';
 import './Project.css';
-const Project = () => {
+const Project = ({ project }) => {
+  const {
+    title,
+    description,
+    image,
+    tags,
+    previewLink,
+    githubClint,
+    githubServer,
+  } = project;
+
   return (
     <Col lg={4}>
       <div className='home-project p-2 rounded'>
         <img src={tempPicture} className='img-fluid ' alt='' />
         <div>
-          <h5 className='fw-bold mt-3 mb-2'>
-            Complete blog site with mern redux
-          </h5>
+          <h5 className='fw-bold mt-3 mb-2'>{title}</h5>
           <div className='project-tags my-1'>
-            <Badge pill bg='light' text='dark' className='project-tag'>
-              #Javascript
-            </Badge>
-            <Badge pill bg='light' text='dark' className='project-tag'>
-              #React
-            </Badge>
-            <Badge pill bg='light' text='dark' className='project-tag'>
-              #NodeJs
-            </Badge>
-            <Badge pill bg='light' text='dark' className='project-tag'>
-              #MongoDb
-            </Badge>
+            {tags.map((tag, index) => (
+              <Badge
+                pill
+                bg='light'
+                text='dark'
+                className='project-tag'
+                key={index}
+              >
+                #{tag}
+              </Badge>
+            ))}
           </div>
-          <p className='text-secondary '>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            iusto deleniti repudiandae ad debitis...
-          </p>
+          <p className='text-secondary '>{description.substr(0, 150)}...</p>
           <div>
-            <Button variant='dark view-details-btn'>
-              <BsTextRight /> View Details
+            <Button
+              variant='dark view-details-btn'
+              href={githubClint}
+              target='_blink'
+            >
+              <BsGithub /> Client Side
             </Button>
-            <Button variant='' className='ms-2'>
+            <Button
+              variant='dark view-details-btn'
+              className='ms-2'
+              href={githubServer}
+              target='_blink'
+            >
+              <BsGithub /> Server Side
+            </Button>
+            <Button
+              variant=''
+              className='ms-2'
+              href={previewLink}
+              target='_blink'
+            >
               <FiEye /> Preview
             </Button>
           </div>
