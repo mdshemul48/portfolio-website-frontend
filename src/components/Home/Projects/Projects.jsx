@@ -5,8 +5,9 @@ import Project from './Project/Project';
 
 import './Projects.css';
 
-import ChakaPhoto from '../../../assets/projects/chaka.png';
-
+import ChakaPhoto from '../../../assets/projects/chaka.jpg';
+import HotelCaliforniaPhoto from '../../../assets/projects/hotel-california.jpg';
+import MallOnPhoto from '../../../assets/projects/MallOn.jpg';
 const projectDetails = [
   {
     title: 'Chaka - A Dream Car Project',
@@ -32,7 +33,7 @@ const projectDetails = [
     title: 'Hotel California - Hotel booking Site',
     description:
       'Customer reservations are added to the database and loaded separately for every user. Authorized clients can book and cancel reservations. Admin can add a new or delete an existing room.',
-    image: ChakaPhoto,
+    image: HotelCaliforniaPhoto,
     tags: [
       'Node',
       'React',
@@ -51,7 +52,7 @@ const projectDetails = [
     title: 'MallOn - Medical & Healthcare',
     description:
       'MallOn is a professional dynamic single-page web application where users can view details of Healthcare products. Integrated with the private route where a user needs to login for view protected route. Authorized users can view product details information after login.',
-    image: ChakaPhoto,
+    image: MallOnPhoto,
     tags: [
       'React',
       'React-Router',

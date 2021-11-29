@@ -3,7 +3,6 @@ import { Badge, Button, Col } from 'react-bootstrap';
 import { FiEye } from 'react-icons/fi';
 import { BsGithub } from 'react-icons/bs';
 
-import tempPicture from '../../../../assets/temp.jpg';
 import './Project.css';
 const Project = ({ project }) => {
   const {
@@ -20,7 +19,7 @@ const Project = ({ project }) => {
   return (
     <Col lg={4}>
       <div className='home-project p-2 rounded'>
-        <img src={tempPicture} className='img-fluid ' alt='' />
+        <img src={image} className='img-fluid ' alt='' />
         <div>
           <h5 className='fw-bold mt-3 mb-2'>{title}</h5>
           <div className='project-tags my-1'>
