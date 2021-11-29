@@ -7,7 +7,7 @@ import Projects from './components/Projects/Projects';
 
 // header and footer
 import NavBar from './components/shared/NavBar/NavBar';
-
+import Footer from './components/shared/Footer/Footer';
 // styles
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -20,6 +20,7 @@ function App() {
         <Route path='/projects' element={<Projects />} />
         <Route path='/dashboard' element={<Dashboard />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
