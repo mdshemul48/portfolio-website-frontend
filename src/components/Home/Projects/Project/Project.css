@@ -1,0 +1,23 @@
+.project-title {
+  color: #0d2f3f;
+}
+
+.home-project {
+  /* background-color: #f7f8fa; */
+  color: #3f3f3f;
+}
+.home-project img {
+  border-radius: 15px;
+}
+
+.home-project p {
+  font-size: 0.9rem;
+}
+.project-tags .project-tag {
+  background-color: #eaedf1 !important;
+  transform: scale(1.05);
+  margin: 5px;
+}
+/* .view-details-btn {
+  background-color: #3f3f3f !important;
+} */
