@@ -55,8 +55,7 @@ const SkillsContainer = styled.div`
     padding: 2rem 0 3rem;
   }
   & .skills-main-image {
-    position: relative;
-    top: 69px;
+    margin-top: 60 px;
   }
   & .skill-icon {
     border-radius: 10%;
@@ -74,7 +73,7 @@ const Skills = () => {
         <Container className='skills-sub-container'>
           <Row>
             <Col lg={6}>
-              <Row className='g-3 mt-3'>
+              <Row className='g-1 mt-3'>
                 {icons.map((icon, index) => (
                   <Col lg={4} sm={6} md={6} key={index}>
                     <div className='text-center'>
