@@ -47,11 +47,12 @@ const ContactMe = () => {
       <ContentMeFormContainer>
         <Container>
           <Row>
-            <Col lg={6}>
+            <Col lg={6} className='mt-5'>
               <img
                 src={ContantMeImage}
                 alt='contact me form'
-                className='img-fluid'
+                className='mt-5'
+                width={'80%'}
               />
             </Col>
             <Col lg={6} className='d-flex align-items-center'>
